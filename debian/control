@@ -1,0 +1,117 @@
+Source: meta-phosh
+Section: metapackages
+Priority: optional
+Maintainer: DebianOnMobile Maintainers <debian-on-mobile-maintainers@alioth-lists.debian.net>
+Uploaders:
+ Arnaud Ferraris <arnaud.ferraris@gmail.com>,
+ Guido Günther <agx@sigxcpu.org>,
+Standards-Version: 4.3.0
+Rules-Requires-Root: no
+Build-Depends:
+ debhelper-compat (= 13),
+Vcs-Git: https://salsa.debian.org/DebianOnMobile-team/meta-phosh.git
+Vcs-Browser: https://salsa.debian.org/DebianOnMobile-team/meta-phosh
+
+Package: phosh-core
+Architecture: linux-any
+Depends:
+ dconf-gsettings-backend,
+ evolution-data-server,
+ feedbackd,
+ fonts-cantarell,
+ glib-networking,
+ gnome-backgrounds,
+ gnome-bluetooth,
+ gnome-control-center (>= 1:3.36),
+ gnome-keyring,
+ gnome-online-accounts,
+ gnome-settings-daemon,
+ gsettings-desktop-schemas,
+ gstreamer1.0-packagekit,
+ gstreamer1.0-plugins-base,
+ gstreamer1.0-plugins-good,
+ gvfs-backends,
+ gvfs-fuse [linux-any],
+ libglib2.0-bin,
+ libpam-gnome-keyring,
+ network-manager,
+ phosh,
+ phosh-mobile-tweaks,
+ pulseaudio,
+ pulseaudio-module-bluetooth,
+ purple-lurch,
+ sound-theme-freedesktop,
+ squeekboard,
+ ${misc:Depends},
+Recommends:
+ chatty,
+ epiphany-browser,
+ gnome-contacts,
+ kgx,
+ libproxy1-plugin-networkmanager [linux-any],
+Description: GNOME/Phosh mobile Environment -- essential components
+ These are the core components of the GNOME/Phosh environment for mobile
+ devices.
+ .
+ This aims to be similar to the GNOME desktop environment but for mobile
+ devices.
+ .
+ This metapackage depends on a basic set of programs, including a
+ a web browser and a contacts application.
+
+Package: phosh-phone
+Architecture: linux-any
+Depends:
+ calls,
+ chatty,
+ gnome-contacts,
+ modemmanager,
+ phosh-core (= ${binary:Version}),
+ purple-mm-sms,
+ wys,
+ ${misc:Depends},
+Description: GNOME/Phosh mobile Environment -- phone components
+ These are the phone related components of the GNOME/Phosh environment for mobile
+ devices.
+ .
+ This aims to be similar to the GNOME desktop environment but for mobile
+ devices.
+ .
+ This metapackage depends on a set of programs that are needed for
+ phone calls and sms handling.
+
+Package: phosh-full
+Architecture: linux-any
+Depends:
+ avahi-daemon,
+ cups-pk-helper (>= 0.2),
+ desktop-base,
+ gnome-clocks (>= 3.38),
+ gstreamer1.0-libav (>= 1.10),
+ gstreamer1.0-plugins-ugly (>= 1.10),
+ libproxy1-plugin-networkmanager [linux-any],
+ phosh-core (= ${binary:Version}),
+ phosh-phone(= ${binary:Version}),
+ rhythmbox-plugins,
+ totem-plugins,
+ xdg-user-dirs-gtk,
+ ${misc:Depends},
+Recommends:
+ phosh-games,
+Description: GNOME/Phosh mobile Environment, with extra components
+ This is the GNOME/Phosh environment for mobile devices.
+ .
+ This metapackage depends on a bigger set of programs than phosh-core
+ giving a more complete environment.
+
+Package: phosh-games
+Architecture: all
+Depends:
+ gnome-2048,
+ gnome-chess,
+ ${misc:Depends},
+Description: games for the GNOME/Phosh mobile environment
+ These are the games from the that should it the screens of mobile devices.
+ .
+ Games are now split in separate packages; this metapackage brings all
+ of them but they can be installed separately.

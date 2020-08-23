@@ -1,0 +1,6 @@
+meta-phosh (1) unstable; urgency=low
+
+  * Initial release. Heavily based on gnome-meta3.
+    (Closes: #968892)
+
+ -- Guido Günther <agx@sigxcpu.org>  Sun, 23 Aug 2020 12:27:17 +0200
