@@ -26,6 +26,8 @@ Depends:
  gnome-keyring,
  gnome-online-accounts,
  gnome-settings-daemon,
+ gnome-session-bin,
+ gnome-session-common,
  gsettings-desktop-schemas,
  gstreamer1.0-packagekit,
  gstreamer1.0-plugins-base,
