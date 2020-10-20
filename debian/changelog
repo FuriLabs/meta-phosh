@@ -1,3 +1,22 @@
+meta-phosh (2) unstable; urgency=medium
+
+  [ Henry-Nicolas Tourneur ]
+  * d/conrol: Add phosh-core dependencies on gnome-session-{bin,common}
+    Phosh recommends those packages, we want to depend on those for the
+    session to work.
+
+  [ Guido Günther ]
+  * salsa-ci: Disable piuparts check.
+    The check can't pass until we have all the dependencies in
+    unstable so disable it for the moment.
+  * Fix gnome-calls naming
+  * Move squeekboard to Recommends:
+    Move it to Recommends until it left NEW.
+  * Move chatty to recommends.
+    Drop the dependency until it's out of NEW
+
+ -- Guido Günther <agx@sigxcpu.org>  Tue, 20 Oct 2020 10:44:58 +0200
+
 meta-phosh (1) unstable; urgency=low
 
   * Initial release. Heavily based on gnome-meta3.
