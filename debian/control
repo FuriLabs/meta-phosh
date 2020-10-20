@@ -94,7 +94,7 @@ Depends:
  gstreamer1.0-plugins-ugly (>= 1.10),
  libproxy1-plugin-networkmanager [linux-any],
  phosh-core (= ${binary:Version}),
- phosh-phone(= ${binary:Version}),
+ phosh-phone (= ${binary:Version}),
  rhythmbox-plugins,
  totem-plugins,
  xdg-user-dirs-gtk,
