@@ -64,7 +64,7 @@ Description: GNOME/Phosh mobile Environment -- essential components
 Package: phosh-phone
 Architecture: linux-any
 Depends:
- calls,
+ gnome-calls,
  chatty,
  gnome-contacts,
  modemmanager,
