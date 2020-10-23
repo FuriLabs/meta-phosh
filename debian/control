@@ -43,13 +43,13 @@ Depends:
  pulseaudio-module-bluetooth,
  purple-lurch,
  sound-theme-freedesktop,
+ squeekboard,
  ${misc:Depends},
 Recommends:
  epiphany-browser,
  gnome-contacts,
  kgx,
  libproxy1-plugin-networkmanager [linux-any],
- squeekboard,
 Description: GNOME/Phosh mobile Environment -- essential components
  These are the core components of the GNOME/Phosh environment for mobile
  devices.
