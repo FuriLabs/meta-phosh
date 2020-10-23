@@ -91,6 +91,7 @@ Depends:
  gnome-clocks (>= 3.38),
  gstreamer1.0-libav (>= 1.10),
  gstreamer1.0-plugins-ugly (>= 1.10),
+ kgx,
  libproxy1-plugin-networkmanager [linux-any],
  phosh-core (= ${binary:Version}),
  phosh-phone (= ${binary:Version}),
