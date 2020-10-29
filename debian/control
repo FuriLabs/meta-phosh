@@ -43,14 +43,13 @@ Depends:
  pulseaudio-module-bluetooth,
  purple-lurch,
  sound-theme-freedesktop,
+ squeekboard,
  ${misc:Depends},
 Recommends:
- chatty,
  epiphany-browser,
  gnome-contacts,
  kgx,
  libproxy1-plugin-networkmanager [linux-any],
- squeekboard,
 Description: GNOME/Phosh mobile Environment -- essential components
  These are the core components of the GNOME/Phosh environment for mobile
  devices.
@@ -64,6 +63,7 @@ Description: GNOME/Phosh mobile Environment -- essential components
 Package: phosh-phone
 Architecture: linux-any
 Depends:
+ chatty,
  gnome-calls,
  gnome-contacts,
  modemmanager,
@@ -71,8 +71,6 @@ Depends:
  purple-mm-sms,
  wys,
  ${misc:Depends},
-Recommends:
- chatty,
 Description: GNOME/Phosh mobile Environment -- phone components
  These are the phone related components of the GNOME/Phosh environment for mobile
  devices.
@@ -87,11 +85,13 @@ Package: phosh-full
 Architecture: linux-any
 Depends:
  avahi-daemon,
+ chatty,
  cups-pk-helper (>= 0.2),
  desktop-base,
  gnome-clocks (>= 3.38),
  gstreamer1.0-libav (>= 1.10),
  gstreamer1.0-plugins-ugly (>= 1.10),
+ kgx,
  libproxy1-plugin-networkmanager [linux-any],
  phosh-core (= ${binary:Version}),
  phosh-phone (= ${binary:Version}),
