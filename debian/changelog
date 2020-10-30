@@ -1,3 +1,14 @@
+meta-phosh (3) unstable; urgency=medium
+
+  * d/control: Move chatty from phosh-core to phosh-{phone,full} phone needs
+    it for SMS and we want it as IM client on e.g. tablets too that don't use
+    phosh-phone.
+  * d/control: Add kgx to phone-full. The full environment must have kgx.
+  * d/control: Depend on squeekboard. It's available now too
+  * d/changelog: Enable piuparts. We have all deps in now.
+
+ -- Guido Günther <agx@sigxcpu.org>  Fri, 30 Oct 2020 10:43:26 +0100
+
 meta-phosh (2) unstable; urgency=medium
 
   [ Henry-Nicolas Tourneur ]
