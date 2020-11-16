@@ -1,3 +1,18 @@
+meta-phosh (4) unstable; urgency=medium
+
+  * d/control: create phosh-tablet
+    chatty is therefore removed from `phosh-full`, as it's a dependency to
+    both `phosh-phone` and `phosh-tablet`.
+  * d/control: Add lollypop to phosh-full instead of rhythmbox-plugins
+    `rhythmbox` doesn't have an adaptive UI, and as such doesn't fit phone
+    screens. `lollypop` would be a better fit as it's adaptive.
+  * d/control: improve long descriptions and bump Standards-Version.
+    Fixes: lintian: out-of-date-standards-version
+    Fixes: lintian: spelling-error-in-description
+    Fixes: lintian: extended-description-line-too-long
+
+ -- Arnaud Ferraris <arnaud.ferraris@gmail.com>  Mon, 16 Nov 2020 23:01:32 +0100
+
 meta-phosh (3) unstable; urgency=medium
 
   * d/control: Move chatty from phosh-core to phosh-{phone,full} phone needs
