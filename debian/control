@@ -81,11 +81,26 @@ Description: GNOME/Phosh mobile Environment -- phone components
  This metapackage depends on a set of programs that are needed for
  phone calls and sms handling.
 
+Package: phosh-tablet
+Architecture: linux-any
+Depends:
+ chatty,
+ gnome-contacts,
+ phosh-core (= ${binary:Version}),
+ ${misc:Depends},
+Description: GNOME/Phosh mobile Environment -- tablet components
+ These are the tablet related components of the GNOME/Phosh environment for
+ mobile devices.
+ .
+ This aims to be similar to the GNOME desktop environment but for mobile
+ devices.
+ .
+ This metapackage depends on a set of programs that are useful on tablets.
+
 Package: phosh-full
 Architecture: linux-any
 Depends:
  avahi-daemon,
- chatty,
  cups-pk-helper (>= 0.2),
  desktop-base,
  gnome-clocks (>= 3.38),
@@ -94,7 +109,7 @@ Depends:
  kgx,
  libproxy1-plugin-networkmanager [linux-any],
  phosh-core (= ${binary:Version}),
- phosh-phone (= ${binary:Version}),
+ phosh-phone (= ${binary:Version}) | phosh-tablet (= ${binary:Version}),
  rhythmbox-plugins,
  totem-plugins,
  xdg-user-dirs-gtk,
