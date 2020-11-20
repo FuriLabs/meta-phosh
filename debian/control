@@ -43,7 +43,7 @@ Depends:
  pulseaudio-module-bluetooth,
  purple-lurch,
  sound-theme-freedesktop,
- squeekboard,
+ squeekboard [!mipsel] | phosh-osk-stub [mipsel],
  ${misc:Depends},
 Recommends:
  epiphany-browser,
