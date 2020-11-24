@@ -1,3 +1,10 @@
+meta-phosh (5) unstable; urgency=medium
+
+  [ Henry-Nicolas Tourneur ]
+  * d/control: skip squeekboard on mipsel for now since it is not building
+
+ -- Guido Günther <agx@sigxcpu.org>  Tue, 24 Nov 2020 11:38:16 +0100
+
 meta-phosh (4) unstable; urgency=medium
 
   * d/control: create phosh-tablet
