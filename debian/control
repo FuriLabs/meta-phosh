@@ -129,7 +129,8 @@ Depends:
  gnome-chess,
  ${misc:Depends},
 Description: games for the GNOME/Phosh mobile environment
- These are the games from the that should it the screens of mobile devices.
+ These are the games from the GNOME/Phosh environment that should fit the
+ screens of mobile devices.
  .
  Games are now split in separate packages; this metapackage brings all
  of them but they can be installed separately.
