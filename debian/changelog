@@ -1,3 +1,13 @@
+meta-phosh (6) unstable; urgency=medium
+
+  * phosh-core: Allow for pipewire too (Closes: #1002874)
+  * phosh-phone: Drop purple-mm-sms.
+    Chatty as of 0.4.0 supports sms natively
+  * phosh-phone: Depend on mmsd-tng.
+    This enables mms support in chatty once 0.5.0 enters unstable.
+
+ -- Guido Günther <agx@sigxcpu.org>  Fri, 31 Dec 2021 12:20:58 +0100
+
 meta-phosh (5) unstable; urgency=medium
 
   [ Henry-Nicolas Tourneur ]
