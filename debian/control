@@ -63,12 +63,11 @@ Description: GNOME/Phosh mobile Environment -- essential components
 Package: phosh-phone
 Architecture: linux-any
 Depends:
- chatty,
+ chatty (>= 0.4.0),
  gnome-calls,
  gnome-contacts,
  modemmanager,
  phosh-core (= ${binary:Version}),
- purple-mm-sms,
  wys,
  ${misc:Depends},
 Description: GNOME/Phosh mobile Environment -- phone components
