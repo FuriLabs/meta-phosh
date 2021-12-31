@@ -39,8 +39,8 @@ Depends:
  network-manager,
  phosh,
  phosh-mobile-tweaks,
- pulseaudio,
- pulseaudio-module-bluetooth,
+ pulseaudio | pipewire-pulse,
+ pulseaudio-module-bluetooth | libspa-0.2-bluetooth,
  purple-lurch,
  sound-theme-freedesktop,
  squeekboard [!mipsel] | phosh-osk-stub [mipsel],
@@ -63,12 +63,12 @@ Description: GNOME/Phosh mobile Environment -- essential components
 Package: phosh-phone
 Architecture: linux-any
 Depends:
- chatty,
+ chatty (>= 0.4.0),
  gnome-calls,
  gnome-contacts,
+ mmsd-tng,
  modemmanager,
  phosh-core (= ${binary:Version}),
- purple-mm-sms,
  wys,
  ${misc:Depends},
 Description: GNOME/Phosh mobile Environment -- phone components
