@@ -48,7 +48,7 @@ Depends:
 Recommends:
  epiphany-browser,
  gnome-contacts,
- kgx,
+ gnome-console,
  libproxy1-plugin-networkmanager [linux-any],
 Description: GNOME/Phosh mobile Environment -- essential components
  These are the core components of the GNOME/Phosh environment for mobile
@@ -104,9 +104,9 @@ Depends:
  cups-pk-helper (>= 0.2),
  desktop-base,
  gnome-clocks (>= 3.38),
+ gnome-console,
  gstreamer1.0-libav (>= 1.10),
  gstreamer1.0-plugins-ugly (>= 1.10),
- kgx,
  libproxy1-plugin-networkmanager [linux-any],
  lollypop,
  phosh-core (= ${binary:Version}),
