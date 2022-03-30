@@ -101,12 +101,12 @@ Package: phosh-full
 Architecture: linux-any
 Depends:
  avahi-daemon,
- cups-pk-helper (>= 0.2),
+ cups-pk-helper,
  desktop-base,
  gnome-clocks (>= 3.38),
  gnome-console,
- gstreamer1.0-libav (>= 1.10),
- gstreamer1.0-plugins-ugly (>= 1.10),
+ gstreamer1.0-libav,
+ gstreamer1.0-plugins-ugly,
  libproxy1-plugin-networkmanager [linux-any],
  lollypop,
  phosh-core (= ${binary:Version}),
