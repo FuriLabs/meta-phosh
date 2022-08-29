@@ -1,3 +1,12 @@
+meta-phosh (8) unstable; urgency=medium
+
+  * d/control: Move chatty to recommends.
+    Don't let chatty block the libsoup3 transition but also avoid that the
+    whole phone stack gets removed.
+  * Bump standards version to 4.6.1
+
+ -- Guido Günther <agx@sigxcpu.org>  Mon, 29 Aug 2022 13:15:42 +0200
+
 meta-phosh (7) unstable; urgency=medium
 
   * phosh-core: Drop phosh-osk-stub dependency for mipsel
