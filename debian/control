@@ -63,7 +63,6 @@ Description: GNOME/Phosh mobile Environment -- essential components
 Package: phosh-phone
 Architecture: linux-any
 Depends:
- chatty (>= 0.4.0),
  gnome-calls,
  gnome-contacts,
  mmsd-tng,
@@ -71,6 +70,8 @@ Depends:
  phosh-core (= ${binary:Version}),
  wys,
  ${misc:Depends},
+Recommends:
+ chatty (>= 0.4.0),
 Description: GNOME/Phosh mobile Environment -- phone components
  These are the phone related components of the GNOME/Phosh environment for
  mobile devices.
@@ -84,10 +85,11 @@ Description: GNOME/Phosh mobile Environment -- phone components
 Package: phosh-tablet
 Architecture: linux-any
 Depends:
- chatty,
  gnome-contacts,
  phosh-core (= ${binary:Version}),
  ${misc:Depends},
+Recommends:
+ chatty,
 Description: GNOME/Phosh mobile Environment -- tablet components
  These are the tablet related components of the GNOME/Phosh environment for
  mobile devices.
