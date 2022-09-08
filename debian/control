@@ -50,6 +50,8 @@ Recommends:
  gnome-contacts,
  gnome-console,
  libproxy1-plugin-networkmanager [linux-any],
+ phosh-mobile-settings,
+ phosh-tour,
 Description: GNOME/Phosh mobile Environment -- essential components
  These are the core components of the GNOME/Phosh environment for mobile
  devices.
