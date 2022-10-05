@@ -118,6 +118,8 @@ Depends:
  ${misc:Depends},
 Recommends:
  phosh-games,
+ phosh-mobile-settings,
+ phosh-plugins,
 Description: GNOME/Phosh mobile Environment, with extra components
  This is the GNOME/Phosh environment for mobile devices.
  .
