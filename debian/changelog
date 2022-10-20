@@ -1,3 +1,26 @@
+meta-phosh (9) unstable; urgency=medium
+
+  [ Debian Janitor ]
+  * Trim trailing whitespace.
+
+  [ Arnaud Ferraris ]
+  * phosh-full: recommend phosh-plugins & phosh-mobile-settings
+  * phosh-phone: downgrade `wys` to Recommends.
+    So far, `wys` is only useful on the Librem 5, other platforms don't need
+    it as audio routing for calls is all done in hardware. It should
+    therefore be possible to uninstall (or not install at all) `wys` on
+    those devices without breaking the whole metapackage stack.
+  * phosh-full: drop `phosh-mobile-settings`
+    It is now a recommended package for `phosh-core`, no need to have it
+    twice.
+  * d/control: update my email address
+
+  [ Guido Günther ]
+  * d/control: Add phosh-{mobile-settings,tour} to phosh-core.
+    We do this as Recommends: so people can drop it if not wanted
+
+ -- Arnaud Ferraris <aferraris@debian.org>  Thu, 20 Oct 2022 15:36:08 +0200
+
 meta-phosh (8) unstable; urgency=medium
 
   * d/control: Move chatty to recommends.
