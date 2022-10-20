@@ -70,10 +70,10 @@ Depends:
  mmsd-tng,
  modemmanager,
  phosh-core (= ${binary:Version}),
- wys,
  ${misc:Depends},
 Recommends:
  chatty (>= 0.4.0),
+ wys,
 Description: GNOME/Phosh mobile Environment -- phone components
  These are the phone related components of the GNOME/Phosh environment for
  mobile devices.
