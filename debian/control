@@ -3,7 +3,7 @@ Section: metapackages
 Priority: optional
 Maintainer: DebianOnMobile Maintainers <debian-on-mobile-maintainers@alioth-lists.debian.net>
 Uploaders:
- Arnaud Ferraris <arnaud.ferraris@gmail.com>,
+ Arnaud Ferraris <aferraris@debian.org>,
  Guido Günther <agx@sigxcpu.org>,
 Standards-Version: 4.6.1
 Rules-Requires-Root: no
