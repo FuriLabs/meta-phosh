@@ -1,3 +1,11 @@
+meta-phosh (10) unstable; urgency=medium
+
+  * d/control: Add gnome-usage.
+    It's the recommended way to kill frozen GUI apps
+  * Make chatty a dependency again. It supports libsoup3 now.
+
+ -- Guido Günther <agx@sigxcpu.org>  Sun, 22 Jan 2023 20:14:23 +0100
+
 meta-phosh (9) unstable; urgency=medium
 
   [ Debian Janitor ]
