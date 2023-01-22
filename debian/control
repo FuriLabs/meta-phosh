@@ -119,6 +119,7 @@ Depends:
  xdg-user-dirs-gtk,
  ${misc:Depends},
 Recommends:
+ gnome-usage,
  phosh-games,
  phosh-plugins,
 Description: GNOME/Phosh mobile Environment, with extra components
