@@ -42,7 +42,7 @@ Depends:
  pulseaudio | pipewire-pulse,
  pulseaudio-module-bluetooth | libspa-0.2-bluetooth,
  sound-theme-freedesktop,
- squeekboard,
+ squeekboard | phosh-osk-stub,
  ${misc:Depends},
 Recommends:
  epiphany-browser,
