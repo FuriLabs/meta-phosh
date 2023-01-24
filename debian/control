@@ -41,7 +41,6 @@ Depends:
  phosh-mobile-tweaks,
  pulseaudio | pipewire-pulse,
  pulseaudio-module-bluetooth | libspa-0.2-bluetooth,
- purple-lurch,
  sound-theme-freedesktop,
  squeekboard,
  ${misc:Depends},
