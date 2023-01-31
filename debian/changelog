@@ -1,3 +1,23 @@
+meta-phosh (11) unstable; urgency=medium
+
+  * phosh-core: Drop purple-lurch.
+    Chatty recommends it so it's pulled in by default.
+  * phosh-core: Allow phosh-osk-stub as on screen keyboard.
+    The default is squeekbard but architectures that have trouble building
+    Rust (or one gtk-rs) can still use the metapackge.
+  * phosh-core: Suggest systemd-coredump.
+    We mention it all around but don't give uses any hint
+    via the packagig system yet.
+  * d/control: Suggest firefox-esr-mobile-config.
+    This give a hint that it exists without pulling in firefox-esr itself.
+  * phosh-core: Prefer pipewire over pulse.
+    It's the future so let's prep for that.
+  * Use gnome-bluetooth-sendto.
+    Move to Recommends while at that as it's not super critical
+    (Closes: #1030128)
+
+ -- Guido Günther <agx@sigxcpu.org>  Tue, 31 Jan 2023 14:06:07 +0100
+
 meta-phosh (10) unstable; urgency=medium
 
   * d/control: Add gnome-usage.
