@@ -4,7 +4,7 @@ meta-phosh (11) unstable; urgency=medium
     Chatty recommends it so it's pulled in by default.
   * phosh-core: Allow phosh-osk-stub as on screen keyboard.
     The default is squeekbard but architectures that have trouble building
-    Rust (or one gtk-rs) can still use the metapackge.
+    Rust (or one gtk-rs) can still use the metapackage.
   * phosh-core: Suggest systemd-coredump.
     We mention it all around but don't give uses any hint
     via the packagig system yet.
