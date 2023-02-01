@@ -1,3 +1,14 @@
+meta-phosh (24) unstable; urgency=medium
+
+  * Make the meta package version match the Phosh's middle version number.
+    As several of Phosh components (phosh, phoc, phosh-mobile-settings,
+    phosh-tour, …) adjusted to the same version scheme let's use that
+    here too. We drop the leading 0. to avoid an epoch (we can introduce
+    that once Phosh switches to 1.x).
+    Updates to the metapackage will be numbered 24+1, 24+2, etc.
+
+ -- Guido Günther <agx@sigxcpu.org>  Wed, 01 Feb 2023 13:55:36 +0100
+
 meta-phosh (11) unstable; urgency=medium
 
   * phosh-core: Drop purple-lurch.
