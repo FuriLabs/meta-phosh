@@ -6,6 +6,7 @@ meta-phosh (24) unstable; urgency=medium
     here too. We drop the leading 0. to avoid an epoch (we can introduce
     that once Phosh switches to 1.x).
     Updates to the metapackage will be numbered 24+1, 24+2, etc.
+  * Version important components so they're up to date on partial upgrades.
 
  -- Guido Günther <agx@sigxcpu.org>  Wed, 01 Feb 2023 13:55:36 +0100
 
