@@ -77,6 +77,8 @@ Recommends:
  wys,
 Suggests:
  firefox-esr-mobile-config,
+ phosh-antispam,
+ vvmplayer,
 Description: GNOME/Phosh mobile Environment -- phone components
  These are the phone related components of the GNOME/Phosh environment for
  mobile devices.
