@@ -1,3 +1,13 @@
+meta-phosh (27) experimental; urgency=medium
+
+  * Upload to experimental
+  * d/control: Bump versions.
+    Require Phosh 0.27.0 and GNOME 44
+  * phosh-phone: Suggest phosh-antispam and vvmplayer.
+    Both are very useful on phones
+
+ -- Guido Günther <agx@sigxcpu.org>  Tue, 02 May 2023 11:38:47 +0200
+
 meta-phosh (24) unstable; urgency=medium
 
   * Make the meta package version match the Phosh's middle version number.
