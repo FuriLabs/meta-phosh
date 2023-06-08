@@ -74,10 +74,10 @@ Depends:
  phosh-core (= ${binary:Version}),
  ${misc:Depends},
 Recommends:
+ phosh-antispam (>= 3.3.0),
  wys,
 Suggests:
  firefox-esr-mobile-config,
- phosh-antispam,
  vvmplayer,
 Description: GNOME/Phosh mobile Environment -- phone components
  These are the phone related components of the GNOME/Phosh environment for
