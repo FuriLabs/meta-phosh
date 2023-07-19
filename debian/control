@@ -63,15 +63,33 @@ Description: GNOME/Phosh mobile Environment -- essential components
  This metapackage depends on a basic set of programs, including a
  web browser and a contacts application.
 
+Package: phosh-pim
+Architecture: linux-any
+Depends:
+ gnome-calendar,
+ gnome-contacts,
+ phosh-core (= ${binary:Version}),
+ ${misc:Depends},
+Recommends:
+ endeavour,
+Description: GNOME/Phosh mobile Environment -- PIM components
+ These are the PIM related components of the GNOME/Phosh environment for
+ mobile devices.
+ .
+ This aims to be similar to the GNOME desktop environment but for mobile
+ devices.
+ .
+ This metapackage depends on a set of programs for managing personal
+ information such as contacts, tasks and calendars.
+
 Package: phosh-phone
 Architecture: linux-any
 Depends:
  chatty (>= 0.7.2),
  gnome-calls (>= 44),
- gnome-contacts,
  mmsd-tng,
  modemmanager,
- phosh-core (= ${binary:Version}),
+ phosh-pim (= ${binary:Version}),
  ${misc:Depends},
 Recommends:
  phosh-antispam (>= 3.3.0),
@@ -92,8 +110,6 @@ Description: GNOME/Phosh mobile Environment -- phone components
 Package: phosh-tablet
 Architecture: linux-any
 Depends:
- chatty (>= 0.7.0~rc5),
- gnome-contacts,
  phosh-core (= ${binary:Version}),
  ${misc:Depends},
 Description: GNOME/Phosh mobile Environment -- tablet components
@@ -118,14 +134,17 @@ Depends:
  libproxy1-plugin-networkmanager [linux-any],
  lollypop,
  phosh-core (= ${binary:Version}),
- phosh-phone (= ${binary:Version}) | phosh-tablet (= ${binary:Version}),
+ phosh-pim (= ${binary:Version}),
  totem-plugins,
  xdg-user-dirs-gtk,
  ${misc:Depends},
 Recommends:
+ chatty,
  gnome-usage,
  phosh-games,
  phosh-plugins,
+Suggests:
+ phosh-phone | phosh-tablet,
 Description: GNOME/Phosh mobile Environment, with extra components
  This is the GNOME/Phosh environment for mobile devices.
  .
