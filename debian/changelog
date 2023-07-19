@@ -1,3 +1,26 @@
+meta-phosh (29) unstable; urgency=medium
+
+  [ Chris Talbot ]
+  * d/control: Recommend phosh-antispam
+
+  [ Arnaud Ferraris ]
+  * Add `phosh-pim` and re-organize packages.
+    The current `phosh-tablet` package feels awkward as it depends on
+    GNOME packages which are useful on any device. It would be best to
+    create into `phosh-pim` which would pull contacts/calendar/tasks
+    management apps, and make the latter a dependency of `phosh-full`.
+    `phosh-tablet` is kept as it may still be useful in the future, but now
+    only depends on `phosh-core`.
+    `phosh-phone`, on the other hand, should depend only on phone-specific
+    components (calls/SMS/MMS) and pull in `phosh-pim` as well as PIM is an
+    important part of phone usage.
+    `phosh-full` now depends only on `phosh-pim` and suggests `phosh-phone`,
+    without making it a dependency or recommend, so that the latter must
+    always be explicitly installed on devices where it's relevant.
+  * d/control: bump Standards-Version, no change required
+
+ -- Arnaud Ferraris <aferraris@debian.org>  Wed, 19 Jul 2023 23:30:18 +0200
+
 meta-phosh (27) experimental; urgency=medium
 
   * Upload to experimental
