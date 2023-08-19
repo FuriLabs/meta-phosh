@@ -39,7 +39,7 @@ Depends:
  phosh (>= 0.27.0),
  phosh-mobile-tweaks,
  pipewire-pulse | pulseaudio,
- libspa-0.2-bluetooth | libspa-0.2-bluetooth,,
+ libspa-0.2-bluetooth | pulseaudio-module-bluetooth,
  sound-theme-freedesktop,
  squeekboard (>= 1.22.0) | phosh-osk-stub (>= 0.27.0),
  ${misc:Depends},
