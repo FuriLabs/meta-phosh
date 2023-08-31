@@ -52,6 +52,7 @@ Recommends:
  phosh-mobile-settings (>= 0.27.0),
  phosh-tour,
  xdg-desktop-portal-gtk,
+ xdg-desktop-portal-wlr,
 Suggests:
  systemd-coredump,
 Description: GNOME/Phosh mobile Environment -- essential components
