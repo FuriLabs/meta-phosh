@@ -51,6 +51,7 @@ Recommends:
  libproxy1-plugin-networkmanager [linux-any],
  phosh-mobile-settings (>= 0.27.0),
  phosh-tour,
+ xdg-desktop-portal-gtk,
 Suggests:
  systemd-coredump,
 Description: GNOME/Phosh mobile Environment -- essential components
@@ -136,7 +137,6 @@ Depends:
  phosh-core (= ${binary:Version}),
  phosh-pim (= ${binary:Version}),
  totem-plugins,
- xdg-user-dirs-gtk,
  ${misc:Depends},
 Recommends:
  chatty,
