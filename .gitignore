@@ -1,0 +1,9 @@
+debian/.debhelper/
+debian/debhelper-build-stamp
+debian/files
+debian/*.substvars
+debian/phosh-core/
+debian/phosh-full/
+debian/phosh-games/
+debian/phosh-phone/
+debian/phosh-tablet/
