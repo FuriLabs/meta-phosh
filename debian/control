@@ -9,6 +9,7 @@ Standards-Version: 4.6.2
 Rules-Requires-Root: no
 Build-Depends:
  debhelper-compat (= 13),
+Homepage: https://phosh.mobi
 Vcs-Git: https://salsa.debian.org/DebianOnMobile-team/meta-phosh.git
 Vcs-Browser: https://salsa.debian.org/DebianOnMobile-team/meta-phosh
 
