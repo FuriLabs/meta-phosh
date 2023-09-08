@@ -1,3 +1,24 @@
+meta-phosh (31) unstable; urgency=medium
+
+  [ Evangelos Ribeiro Tzaras ]
+  * phosh-core: Fix bluetooth PA/PW conditional dependency.
+
+  [ Guido Günther ]
+  * d/control: Move xdg-desktop-portal-gtk from phosh-full to core.
+    Portals are increasingly used even outside containers (e.g. in GTK4 for
+    file dialogs) so make sure we have a portal installed.
+  * d/control: Add xdg-desktop-portal-wlr.
+    Needed for screenshots and screencasts
+  * d/control: Ensure recent versions of pho*
+    E.g. Phosh 0.31.0 can run with older phoc but phoc 0.31.0 fixes bugs in
+    0.30.0 so version that dependency to help partial upgrades.
+  * d/control: Version pipewire dependency.
+    Require a version that gives us suitable audio icons
+  * gitignore debian build directories
+  * Add homepage field
+
+ -- Guido Günther <agx@sigxcpu.org>  Fri, 08 Sep 2023 12:58:02 +0200
+
 meta-phosh (29) unstable; urgency=medium
 
   [ Chris Talbot ]
