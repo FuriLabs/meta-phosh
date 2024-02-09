@@ -96,6 +96,7 @@ Depends:
  phosh-pim (= ${binary:Version}),
  ${misc:Depends},
 Recommends:
+ geoclue-2.0,
  phosh-antispam (>= 3.3.0),
  wys,
 Suggests:
