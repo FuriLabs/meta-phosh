@@ -51,6 +51,7 @@ Recommends:
  gnome-contacts (>= 44),
  gnome-console (>= 44),
  libproxy1-plugin-networkmanager [linux-any],
+ phog,
  phosh-mobile-settings (>= 0.31.0),
  phosh-tour,
  xdg-desktop-portal-gtk,
