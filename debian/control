@@ -133,7 +133,7 @@ Depends:
  avahi-daemon,
  cups-pk-helper,
  desktop-base,
- gnome-clocks (>= 3.38),
+ gnome-clocks (>= 46),
  gnome-console,
  gstreamer1.0-libav,
  gstreamer1.0-plugins-ugly,
