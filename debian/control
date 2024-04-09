@@ -90,7 +90,7 @@ Description: GNOME/Phosh mobile Environment -- PIM components
 Package: phosh-phone
 Architecture: linux-any
 Depends:
- chatty (>= 0.7.2),
+ chatty (>= 0.8.2),
  gnome-calls (>= 44),
  mmsd-tng,
  modemmanager,
