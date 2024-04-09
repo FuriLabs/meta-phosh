@@ -141,7 +141,7 @@ Depends:
  lollypop,
  phosh-core (= ${binary:Version}),
  phosh-pim (= ${binary:Version}),
- totem-plugins,
+ livi,
  ${misc:Depends},
 Recommends:
  chatty,
