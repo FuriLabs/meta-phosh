@@ -25,7 +25,7 @@ Depends:
  gnome-control-center (>= 1:44),
  gnome-keyring,
  gnome-online-accounts,
- gnome-settings-daemon (>= 44),
+ gnome-settings-daemon (>= 46),
  gnome-session-bin,
  gnome-session-common,
  gsettings-desktop-schemas,
