@@ -148,6 +148,8 @@ Recommends:
  gnome-usage,
  phosh-games,
  phosh-plugins,
+ phosh-wallpapers,
+ plymouth-theme-phosh,
 Suggests:
  phosh-phone | phosh-tablet,
 Description: GNOME/Phosh mobile Environment, with extra components
