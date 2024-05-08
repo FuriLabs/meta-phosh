@@ -140,7 +140,6 @@ Depends:
  libproxy1-plugin-networkmanager [linux-any],
  phosh-core (= ${binary:Version}),
  phosh-pim (= ${binary:Version}),
- totem-plugins,
  ${misc:Depends},
 Recommends:
  chatty,
