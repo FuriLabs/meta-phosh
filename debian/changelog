@@ -1,3 +1,33 @@
+meta-phosh (38) experimental; urgency=medium
+
+  * Upload to experimental as some dependencies are only there atm.
+  * d/control: Bump clocks dep.
+    We want a variant with X-Phosh-Lockscreen-Actions so alarms can be
+    turned off on the lock screen.
+  * d/control: Bump to Phosh to 0.38.0
+  * d/control: Bump g-s-d dependency.
+    We want a version that avoids the suspend notification
+  * d/control: Bump chatty dependency.
+    We want a GTK4 variant
+  * d/control: Switch from totem to livi.
+    We want a mobile friendly video player that uses GtkGraphicsOffload
+  * phosh-full: Add wallpapers and plymouth theme.
+    They're in unstable now
+
+ -- Guido Günther <agx@sigxcpu.org>  Thu, 18 Apr 2024 15:58:51 +0200
+
+meta-phosh (37) unstable; urgency=medium
+
+  * Sync versions with current phosh release
+  * phosh-phone: Recommend location services.
+    Location information is relevant for mapping, etc. While individual apps
+    should have a dependency we can well expect it to be present by default
+    on a phone.
+  * phosh-core: Recommend phog.
+    Most people want a DisplayManager instead of the systemd unit.
+
+ -- Guido Günther <agx@sigxcpu.org>  Mon, 25 Mar 2024 08:17:27 +0100
+
 meta-phosh (31) unstable; urgency=medium
 
   [ Evangelos Ribeiro Tzaras ]
