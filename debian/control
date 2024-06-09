@@ -53,7 +53,6 @@ Recommends:
  libproxy1-plugin-networkmanager [linux-any],
  phog,
  phosh-mobile-settings (>= 0.38.0),
- phosh-tour,
  xdg-desktop-portal-gtk,
  xdg-desktop-portal-wlr,
 Suggests:
@@ -92,7 +91,6 @@ Architecture: linux-any
 Depends:
  chatty (>= 0.8.2),
  gnome-calls (>= 44),
- mmsd-tng,
  modemmanager,
  phosh-pim (= ${binary:Version}),
  ${misc:Depends},
