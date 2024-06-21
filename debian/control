@@ -46,6 +46,7 @@ Depends:
  squeekboard (>= 1.38.0) | phosh-osk-stub (>= 0.38.0),
  ${misc:Depends},
 Recommends:
+ feedbackd-device-themes,
  epiphany-browser,
  gnome-bluetooth-sendto,
  gnome-contacts (>= 44),
