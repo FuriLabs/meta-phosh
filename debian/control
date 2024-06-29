@@ -29,7 +29,6 @@ Depends:
  gnome-session-bin,
  gnome-session-common,
  gsettings-desktop-schemas,
- gstreamer1.0-packagekit,
  gstreamer1.0-plugins-base,
  gstreamer1.0-plugins-good,
  gvfs-backends,
@@ -47,6 +46,7 @@ Depends:
  ${misc:Depends},
 Recommends:
  feedbackd-device-themes,
+ gstreamer1.0-packagekit,
  epiphany-browser,
  gnome-bluetooth-sendto,
  gnome-contacts (>= 44),
