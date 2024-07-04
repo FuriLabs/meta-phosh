@@ -143,7 +143,6 @@ Depends:
  lollypop,
  phosh-core (= ${binary:Version}),
  phosh-pim (= ${binary:Version}),
- livi,
  ${misc:Depends},
 Recommends:
  chatty,
@@ -151,6 +150,7 @@ Recommends:
  phosh-games,
  phosh-plugins,
  phosh-wallpapers,
+ livi,
  plymouth-theme-phosh,
 Suggests:
  phosh-phone | phosh-tablet,
