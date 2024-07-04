@@ -56,6 +56,7 @@ Recommends:
  phog,
  phosh-mobile-settings (>= 0.40.0),
  phosh-tour,
+ sound-theme-phosh,
  xdg-desktop-portal-gtk,
  xdg-desktop-portal-wlr,
 Suggests:
