@@ -1,3 +1,21 @@
+meta-phosh (40) unstable; urgency=medium
+
+  * Upload to unstable
+  * phosh-core: Recommend feedbackd's device themes.
+    Improves device usability for those that have themes.
+  * core: Recommend jxl pixbuf loader.
+    GNOMEs backgrounds use these
+  * core: Move gstreamer-packagekit to recommends.
+    It pulls in packagekit which can be a CPU hog on mobile and users might
+    want to remove it.
+  * phosh-full: Move livi to Recommends.
+    This way we can upload to unstable
+  * phosh-core: Bump dependencies to the 0.40.
+    This way we ensure we get the updated defaults
+  * core: Recommend sound theme
+
+ -- Guido Günther <agx@sigxcpu.org>  Thu, 04 Jul 2024 08:53:02 +0200
+
 meta-phosh (38) experimental; urgency=medium
 
   * Upload to experimental as some dependencies are only there atm.
