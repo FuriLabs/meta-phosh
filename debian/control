@@ -147,6 +147,7 @@ Recommends:
  phosh-games,
  phosh-plugins,
  phosh-wallpapers,
+ livi,
  plymouth-theme-phosh,
 Suggests:
  phosh-phone | phosh-tablet,
