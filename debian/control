@@ -55,6 +55,7 @@ Recommends:
  libjxl-gdk-pixbuf,
  phog,
  phosh-mobile-settings (>= 0.40.0),
+ sound-theme-phosh,
  xdg-desktop-portal-gtk,
  xdg-desktop-portal-wlr,
 Suggests:
