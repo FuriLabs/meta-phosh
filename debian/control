@@ -51,6 +51,7 @@ Recommends:
  gnome-console (>= 44),
  gnome-contacts (>= 44),
  gstreamer1.0-packagekit,
+ iio-sensor-proxy,
  libjxl-gdk-pixbuf,
  libproxy1-plugin-networkmanager [linux-any],
  phog,
