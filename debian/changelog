@@ -1,3 +1,14 @@
+meta-phosh (40.1) unstable; urgency=medium
+
+  * phosh-core: Sort recommends alphabetically
+  * phosh-core: Recommend iio-sensor-proxy.
+    It's generally useful when the device has supported sensors
+  * d/control: Switch to font-inter-variable.
+    It's gnomes default from 47 onwards as Cantarell is unmaintained.  We
+    leave cantarell there for the moment to ease partial upgrades.
+
+ -- Guido Günther <agx@sigxcpu.org>  Fri, 19 Jul 2024 10:18:38 +0200
+
 meta-phosh (40) unstable; urgency=medium
 
   * Upload to unstable
