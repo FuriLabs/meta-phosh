@@ -20,6 +20,7 @@ Depends:
  evolution-data-server,
  feedbackd (>= 0.2.0),
  fonts-cantarell,
+ fonts-inter-variable,
  glib-networking,
  gnome-backgrounds,
  gnome-control-center (>= 1:44),
