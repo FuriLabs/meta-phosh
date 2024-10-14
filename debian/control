@@ -43,7 +43,7 @@ Depends:
  pipewire-pulse (>= 0.3.73) | pulseaudio,
  libspa-0.2-bluetooth | pulseaudio-module-bluetooth,
  sound-theme-freedesktop,
- squeekboard (>= 1.38.0) | phosh-osk-stub (>= 0.38.0),
+ phosh-osk-stub (>= 0.38.0) | squeekboard (>= 1.38.0),
  ${misc:Depends},
 Recommends:
  epiphany-browser,
