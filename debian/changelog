@@ -1,3 +1,14 @@
+meta-phosh (43) unstable; urgency=medium
+
+  * phosh-core: Make phosh-osk-stub the default OSK.
+    It has been the de-facto default for some time as squeekboard
+    wasn't in testing. Existing installations are not affected and
+    squeekboard remains as an easy to switch to alternative.
+  * core: Recommend the portal.
+    This is needed for e.g. accent colors to work.
+
+ -- Guido Günther <agx@sigxcpu.org>  Tue, 12 Nov 2024 11:47:46 +0100
+
 meta-phosh (40.1) unstable; urgency=medium
 
   * phosh-core: Sort recommends alphabetically
