@@ -1,3 +1,13 @@
+meta-phosh (43.1) unstable; urgency=medium
+
+  * d/control: Wrap and sort
+  * d/control: Make xdg-desktop-portal-phosh a dependency.
+    A newly added recommends isn't being picked up on existing installations
+    so make it a dependency for trixie and switch to Recommends: for trixie
+    + 1.
+
+ -- Guido Günther <agx@sigxcpu.org>  Sun, 01 Dec 2024 09:37:32 +0100
+
 meta-phosh (43) unstable; urgency=medium
 
   * phosh-core: Make phosh-osk-stub the default OSK.
