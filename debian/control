@@ -44,6 +44,7 @@ Depends:
  phosh-osk-stub (>= 0.38.0) | squeekboard (>= 1.38.0),
  pipewire-pulse (>= 0.3.73) | pulseaudio,
  sound-theme-freedesktop,
+ xdg-desktop-portal-phosh,
  ${misc:Depends},
 Recommends:
  epiphany-browser,
@@ -60,7 +61,6 @@ Recommends:
  phosh-tour,
  sound-theme-phosh,
  xdg-desktop-portal-gtk,
- xdg-desktop-portal-phosh,
  xdg-desktop-portal-wlr,
 Suggests:
  systemd-coredump,
