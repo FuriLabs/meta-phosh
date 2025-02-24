@@ -56,7 +56,6 @@ Recommends:
  iio-sensor-proxy,
  libjxl-gdk-pixbuf,
  libproxy1-plugin-networkmanager [linux-any],
- phog,
  phosh-mobile-settings (>= 0.44~),
  sound-theme-phosh (>= 0.42.0),
  xdg-desktop-portal-gtk,
