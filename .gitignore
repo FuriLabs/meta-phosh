@@ -6,4 +6,5 @@ debian/phosh-core/
 debian/phosh-full/
 debian/phosh-games/
 debian/phosh-phone/
+debian/phosh-pim/
 debian/phosh-tablet/
