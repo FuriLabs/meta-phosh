@@ -1,3 +1,10 @@
+meta-phosh (46) unstable; urgency=medium
+
+  * Use phrog instead of phog.
+    We want to drop phog for trixie.
+
+ -- Guido Günther <agx@sigxcpu.org>  Fri, 25 Apr 2025 13:33:30 +0200
+
 meta-phosh (44) unstable; urgency=medium
 
   * Bump versions. This ensures dependent packages get updates together.
