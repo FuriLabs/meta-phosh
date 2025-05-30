@@ -143,6 +143,7 @@ Depends:
  libproxy1-plugin-networkmanager [linux-any],
  phosh-core (= ${binary:Version}),
  phosh-pim (= ${binary:Version}),
+ xwayland,
  ${misc:Depends},
 Recommends:
  chatty,
