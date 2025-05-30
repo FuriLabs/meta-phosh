@@ -1,7 +1,7 @@
 meta-phosh (46.1) unstable; urgency=medium
 
   * phosh-full: Depend on xwayland.
-    It comes in via phoc anway but this ensures a full blown installation
+    It comes in via phoc anyway but this ensures a full blown installation
     has it.
   * Check wrap-and-sort in CI
 
