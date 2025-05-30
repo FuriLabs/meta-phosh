@@ -1,3 +1,12 @@
+meta-phosh (46.1) unstable; urgency=medium
+
+  * phosh-full: Depend on xwayland.
+    It comes in via phoc anway but this ensures a full blown installation
+    has it.
+  * Check wrap-and-sort in CI
+
+ -- Guido Günther <agx@sigxcpu.org>  Fri, 30 May 2025 14:24:09 +0200
+
 meta-phosh (46) unstable; urgency=medium
 
   * Use phrog instead of phog.
