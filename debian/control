@@ -147,6 +147,7 @@ Depends:
  lollypop,
  phosh-core (= ${binary:Version}),
  phosh-pim (= ${binary:Version}),
+ xwayland,
  ${misc:Depends},
 Recommends:
  chatty,
