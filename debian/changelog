@@ -1,3 +1,14 @@
+meta-phosh (47) experimental; urgency=medium
+
+  * Upload to experimental
+  * Bump dependencies.
+    This makes it easier to pull in recent phosh from experimental.
+    during the freeze.
+  * Allow for stevia as OSK (it's still in NEW so we don't drop the
+    osk-stub dependency yet)
+
+ -- Guido Günther <agx@sigxcpu.org>  Sun, 01 Jun 2025 10:35:11 +0200
+
 meta-phosh (46.1) unstable; urgency=medium
 
   * phosh-full: Depend on xwayland.
