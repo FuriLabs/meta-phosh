@@ -1,3 +1,11 @@
+meta-phosh (48) experimental; urgency=medium
+
+  * d/control: Drop phosh-osk-stub.
+    We have stevia in the archive now
+  * d/control: Bump dependencies to 0.48.0
+
+ -- Guido Günther <agx@sigxcpu.org>  Thu, 17 Jul 2025 19:51:40 +0200
+
 meta-phosh (47) experimental; urgency=medium
 
   * Upload to experimental
