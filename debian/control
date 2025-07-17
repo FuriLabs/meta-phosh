@@ -41,7 +41,7 @@ Depends:
  phoc (>= 0.44~),
  phosh (>= 0.47.0),
  phosh-mobile-tweaks (>= 0.47.0),
- phosh-osk-stevia (>= 0.47.0) | phosh-osk-stub (>= 0.46.0) | squeekboard (>= 1.43.0),
+ phosh-osk-stevia (>= 0.47.0) | squeekboard (>= 1.43.0),
  pulseaudio,
  sound-theme-freedesktop,
  xdg-desktop-portal-phosh (>= 0.47.0),
