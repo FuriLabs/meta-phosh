@@ -18,7 +18,7 @@ Architecture: linux-any
 Depends:
  dconf-gsettings-backend,
  evolution-data-server,
- feedbackd (>= 0.8.2),
+ feedbackd (>= 0.8.4),
  fonts-cantarell,
  fonts-inter-variable,
  glib-networking,
@@ -48,7 +48,7 @@ Depends:
  ${misc:Depends},
 Recommends:
  epiphany-browser,
- feedbackd-device-themes (>= 0.8.3),
+ feedbackd-device-themes (>= 0.8.5),
  gnome-bluetooth-sendto,
  gnome-console (>= 48),
  gnome-contacts (>= 48),
