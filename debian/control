@@ -56,6 +56,7 @@ Recommends:
  iio-sensor-proxy,
  libjxl-gdk-pixbuf,
  libproxy1v5 [linux-any],
+ network-manager-config-connectivity-debian,
  phosh-mobile-settings (>= 0.44~),
  sound-theme-phosh (>= 0.42.0),
  xdg-desktop-portal-gtk,
