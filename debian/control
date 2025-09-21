@@ -168,9 +168,10 @@ Description: GNOME/Phosh mobile Environment, with extra components
 Package: phosh-games
 Architecture: all
 Depends:
- gnome-2048,
  gnome-chess,
  ${misc:Depends},
+Recommends:
+ gnome-2048,
 Description: games for the GNOME/Phosh mobile environment
  These are the games from the GNOME/Phosh environment that should fit the
  screens of mobile devices.
