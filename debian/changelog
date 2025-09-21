@@ -1,3 +1,17 @@
+meta-phosh (48.1) unstable; urgency=medium
+
+  * Upload to unstable
+  * d/control: Bump standards version
+  * d/control: Move gnome-2048 to Recommends.
+    It's going to be dropped from Debian (Closes: #1112189)
+  * d/control: Update libproxy dependency (Closes: #1115165)
+  * d/control: Ensure all deps for `key-pressed` event are present
+  * d/control: Recommend network-manager-config-connectivity-debian.
+    Otherwise we don't have captive portal detection
+  * d/control: Lower xdg-desktop-portal-phosh dependency
+
+ -- Guido Günther <agx@sigxcpu.org>  Sun, 21 Sep 2025 14:34:24 +0200
+
 meta-phosh (48) experimental; urgency=medium
 
   * d/control: Drop phosh-osk-stub.
