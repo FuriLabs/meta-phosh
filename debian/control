@@ -64,8 +64,8 @@ Recommends:
  xdg-desktop-portal-wlr,
 Suggests:
  systemd-coredump,
-Description: GNOME/Phosh mobile Environment -- essential components
- These are the core components of the GNOME/Phosh environment for mobile
+Description: Phosh Mobile Environment -- essential components
+ These are the core components of the Phosh environment for mobile
  devices.
  .
  This aims to be similar to the GNOME desktop environment but for mobile
@@ -83,8 +83,8 @@ Depends:
  ${misc:Depends},
 Recommends:
  endeavour,
-Description: GNOME/Phosh mobile Environment -- PIM components
- These are the PIM related components of the GNOME/Phosh environment for
+Description: Phosh Mobile Environment -- PIM components
+ These are the PIM related components of the Phosh environment for
  mobile devices.
  .
  This aims to be similar to the GNOME desktop environment but for mobile
@@ -109,8 +109,8 @@ Recommends:
 Suggests:
  firefox-esr-mobile-config,
  vvmplayer,
-Description: GNOME/Phosh mobile Environment -- phone components
- These are the phone related components of the GNOME/Phosh environment for
+Description: Phosh mobile environment -- phone components
+ These are the phone related components of the Phosh environment for
  mobile devices.
  .
  This aims to be similar to the GNOME desktop environment but for mobile
@@ -124,8 +124,8 @@ Architecture: linux-any
 Depends:
  phosh-core (= ${binary:Version}),
  ${misc:Depends},
-Description: GNOME/Phosh mobile Environment -- tablet components
- These are the tablet related components of the GNOME/Phosh environment for
+Description: Phosh Mobile Environment -- tablet components
+ These are the tablet related components of the Phosh environment for
  mobile devices.
  .
  This aims to be similar to the GNOME desktop environment but for mobile
@@ -159,8 +159,8 @@ Recommends:
  plymouth-theme-phosh,
 Suggests:
  phosh-phone | phosh-tablet,
-Description: GNOME/Phosh mobile Environment, with extra components
- This is the GNOME/Phosh environment for mobile devices.
+Description: Phosh Mobile Environment, with extra components
+ This is the Phosh environment for mobile devices.
  .
  This metapackage depends on a bigger set of programs than phosh-core
  giving a more complete environment.
@@ -172,8 +172,8 @@ Depends:
  ${misc:Depends},
 Recommends:
  gnome-2048,
-Description: games for the GNOME/Phosh mobile environment
- These are the games from the GNOME/Phosh environment that should fit the
+Description: games for the Phosh mobile environment
+ These are the games from the Phosh environment that should fit the
  screens of mobile devices.
  .
  Games are now split in separate packages; this metapackage brings all
