@@ -1,3 +1,18 @@
+meta-phosh (49) unstable; urgency=medium
+
+  [ Jeremy Bícha ]
+  * Add network-manager-config-connectivity-ubuntu as an alternate Recommends
+    to the Debian package
+
+  [ Guido Günther ]
+  * d/control: Lower phoc and tour dependencies.
+    They're not recent in forky yet and we want to fix other
+    issues.
+  * Bump versions. Those recent in forky should be updated when installing the
+    meta package
+
+ -- Guido Günther <agx@sigxcpu.org>  Mon, 22 Sep 2025 08:47:59 +0200
+
 meta-phosh (48.1) unstable; urgency=medium
 
   * Upload to unstable
