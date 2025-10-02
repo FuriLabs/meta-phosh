@@ -148,6 +148,7 @@ Depends:
  ${misc:Depends},
 Recommends:
  chatty,
+ gnome-software-plugin-flatpak,
  gnome-usage,
  livi,
  phosh-games,
