@@ -1,3 +1,19 @@
+meta-phosh (50) unstable; urgency=medium
+
+  [ Arun Mani J ]
+  * Recommend `gnome-software-plugin-flatpak`
+
+  [ Chris Talbot ]
+  * d/control: make phosh-phone depend on cellbroadcastd
+
+  [ Guido Günther ]
+  * Only use stevia to fulfill the OSK dependency.
+    Users can still use squeekboard but this ensures we have a functional
+    OSK on the system.
+  * Bump Phosh deps to 0.50
+
+ -- Guido Günther <agx@sigxcpu.org>  Thu, 06 Nov 2025 10:01:03 +0100
+
 meta-phosh (49) unstable; urgency=medium
 
   [ Jeremy Bícha ]
