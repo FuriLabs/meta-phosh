@@ -138,6 +138,7 @@ Depends:
  avahi-daemon,
  cups-pk-helper,
  desktop-base,
+ gapless,
  gnome-clocks (>= 48),
  gnome-console,
  gstreamer1.0-libav,
