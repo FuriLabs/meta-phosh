@@ -1,3 +1,14 @@
+meta-phosh (52) unstable; urgency=medium
+
+  * phosh-full: Switch to gapless.
+    This is what we recommended since some time but it wasn't
+    in Debian until recently
+  * Bump Phosh versions to 0.52.
+    There were some important fixes that we want to make sure
+    are shipping to users.
+
+ -- Guido Günther <agx@sigxcpu.org>  Fri, 16 Jan 2026 11:16:02 +0100
+
 meta-phosh (50) unstable; urgency=medium
 
   [ Arun Mani J ]
