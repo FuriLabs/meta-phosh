@@ -44,7 +44,7 @@ Depends:
  phosh-osk-stevia (>= 0.48.0) | squeekboard (>= 1.43.0),
  pulseaudio,
  sound-theme-freedesktop,
- xdg-desktop-portal-phosh (>= 0.46.0),
+ xdg-desktop-portal-phosh (>= 0.48.0),
  ${misc:Depends},
 Recommends:
  epiphany-browser,
